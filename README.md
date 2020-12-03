@@ -6,11 +6,11 @@ This application allows the user to type notes, save them, retrieve and delete n
 [Book-SearchApp](https://fathomless-tor-08773.herokuapp.com/)
 
 
-  ## Technologies
+  ## Technologies 
 
-* [MongoDB]() - 
+* [MongoDB](https://www.mongodb.com/) - Server side database
 * [Express.Js](https://expressjs.com/) - node.js framework
-* [React]() - 
+* [React](https://reactjs.org/) - User Interface library
 * [NPM](https://expressjs.com/) - Dependency management
 
 
