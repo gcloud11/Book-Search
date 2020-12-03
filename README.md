@@ -52,3 +52,4 @@ localhost3000
 ```
 
 ## Visuals
+<img width="1103" alt="Pic" src="https://user-images.githubusercontent.com/67169488/101080178-103c6400-356e-11eb-9f10-08938adddce6.png">
