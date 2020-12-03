@@ -2,5 +2,11 @@
     padding: 90px;
     margin:20px;
     font-family: 'Courier New', Courier, monospace;
-    
+    background-image: url('../../utils//images/books4.jpg');
+    background-size: cover;   
+}
+
+.display-4 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
 }
