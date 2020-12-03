@@ -3,7 +3,7 @@
 
 This application allows the user to type notes, save them, retrieve and delete notes as needed. Virtual note-taking is great because there is no worry for trying to find that endlessly hidden piece of paper. This app takes place on your computer. Never lose a note again.
 
-[Book-SearchApp](https://fathomless-tor-08773.herokuapp.com/)
+[Book-SearchApp](https://young-mountain-91812.herokuapp.com/)
 
 
   ## Technologies 
@@ -46,7 +46,7 @@ Open integrated terminal and run:
 ```
 npm start
 ```
-This connects to localhost 3000 for application use. 
+This connects to localhost 3002 for application use. 
 ```
 localhost3000
 ```
