@@ -35,19 +35,20 @@ git clone https://github.com/gcloud11/Book-Search.git
 ```
 SSH:
 ```
-git clone git@github.com:gcloud11/Lets-Take-Notes.git
+git clone git@github.com:gcloud11/Book-Search.git
 ```
-NPM Install:
+NPM Install to intsall all dependencies neesed for this project & install any other dependencies needed if/when prompted with the second code below "npm i":
 ```
 npm i
+npm install (the name of the dependency)
 ```
-Open integrated terminal in server.js file:
+Open integrated terminal and run:
 ```
-node server.js
+npm start
 ```
-This connects to PORT 3000 for application use. Type in webpage url:
+This connects to localhost 3000 for application use. 
 ```
-localhost4040
+localhost3000
 ```
 
 ## Visuals
