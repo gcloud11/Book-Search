@@ -1,70 +1,55 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Book-Search
 
-## Available Scripts
+This application allows the user to type notes, save them, retrieve and delete notes as needed. Virtual note-taking is great because there is no worry for trying to find that endlessly hidden piece of paper. This app takes place on your computer. Never lose a note again.
 
-In the project directory, you can run:
+[Book-SearchApp](https://fathomless-tor-08773.herokuapp.com/)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  ## Technologies 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* [MongoDB](https://www.mongodb.com/) - Server side database
+* [Express.Js](https://expressjs.com/) - node.js framework
+* [React](https://reactjs.org/) - User Interface library
+* [NPM](https://expressjs.com/) - Dependency management
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Installation
+```
+Use express for server side portion and the node package manager modules: fs, path and util modules
+```
+```
+- To use or try this application clone the https link from the git terminal onto desktop.
+- Import repository into VS code
+- Right click into the "server.js" folder, right click and select "open in integrated terminal"
+- Type: node server.js
+- This is prompt the port on the server to begin to run and the application to be used.
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Git clone repositiory to local machine:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+HTTPS:
+```
+git clone https://github.com/gcloud11/Book-Search.git
+```
+SSH:
+```
+git clone git@github.com:gcloud11/Book-Search.git
+```
+NPM Install to intsall all dependencies neesed for this project & install any other dependencies needed if/when prompted with the second code below "npm i":
+```
+npm i
+npm install (the name of the dependency)
+```
+Open integrated terminal and run:
+```
+npm start
+```
+This connects to localhost 3000 for application use. 
+```
+localhost3000
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Visuals
+<img width="1103" alt="Pic" src="https://user-images.githubusercontent.com/67169488/101080178-103c6400-356e-11eb-9f10-08938adddce6.png">
